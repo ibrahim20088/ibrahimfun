@@ -11,7 +11,7 @@ const newYearTime = new Date(` August 4 , 2026 8:30:00
 // Update countdown time
 function updateCountdown() {
 	const currentTime = new Date();
-	const - diff =  currentTime- newYearTime;
+	const diff =  currentTime- newYearTime;
 
 	const d = Math.floor(diff / 1000 / 60 / 60 / 24);
 	const h = Math.floor(diff / 1000 / 60 / 60) % 24;
